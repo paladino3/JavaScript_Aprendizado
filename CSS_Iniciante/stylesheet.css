@@ -19,3 +19,70 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.8em;
 }
+
+
+ul li{
+
+    list-style: none;
+}
+
+ul li a {
+
+    color: #000bff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.8em;
+    text-decoration: none;
+
+}
+
+.menu{
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+.menu li {
+
+    display: inline;
+    margin-right: 5px;
+}
+
+.menu li  a {
+    background-color: #818181;
+    border: 1px solid #575757;
+    color: #fff;
+    padding: 5px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.content {
+    border: 2px solid #13ff00;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.article-data{
+
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+.contact-us{
+
+    padding: 0;
+
+}
+.contact-us li{
+
+    display: inline;
+    margin-right: 5px;
+}
+
+.contact-us li a {
+    color: #333;
+}
