@@ -1,6 +1,11 @@
 
 
+var input =  document.getElementById("quantidade");
+var botaoIncrementa = document.querySelector("btn-incrementa");
 
-var input = document.getElementById("quantidade");
+botaoIncrementa.addEventListener('click', incrementa)
 
-input.value = 2; 
+function incrementa(){
+
+    input.value ++
+}
